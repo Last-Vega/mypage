@@ -60,16 +60,16 @@
         <h3> Products </h3>
         <v-card-text>
           Product in Rakuten Short Internship <br />
-          <a href="https://tabiluck.herokuapp.com"> Tabiluck </a>
+          <a href="https://tabiluck.herokuapp.com" target="_blank" rel="noopener noreferrer"> Tabiluck </a>
           and
-          <a href="https://drive.google.com/file/d/1PzUZyTUhgwTpvlhgwE5YPT5GXPA_NoSy/view"> Description </a>
+          <a href="https://drive.google.com/file/d/1PzUZyTUhgwTpvlhgwE5YPT5GXPA_NoSy/view" target="_blank" rel="noopener noreferrer"> Description </a>
           <br />
           <br />
 
           Product in enPiT2020 <br />
-          <a href="https://bloodcurdling-cemetery-16965.herokuapp.com/"> Goodbuy </a>
+          <a href="https://bloodcurdling-cemetery-16965.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Goodbuy </a>
           and
-          <a href="https://docs.google.com/presentation/d/1QCJ1WCg9zngbLG4tI_DoR6qx911PPcrEr7-CrfvoV88/edit#slide=id.p"> Description </a>
+          <a href="https://docs.google.com/presentation/d/1QCJ1WCg9zngbLG4tI_DoR6qx911PPcrEr7-CrfvoV88/edit#slide=id.p" target="_blank" rel="noopener noreferrer"> Description </a>
           <br />
 
         </v-card-text>

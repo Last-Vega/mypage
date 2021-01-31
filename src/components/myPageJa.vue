@@ -59,16 +59,16 @@
         <h3> 製作物 </h3>
         <v-card-text>
           楽天 短期インターンでの成果物 <br />
-          <a href="https://tabiluck.herokuapp.com"> Tabiluck </a>
+          <a href="https://tabiluck.herokuapp.com" target="_blank" rel="noopener noreferrer"> Tabiluck </a>
           と
-          <a href="https://drive.google.com/file/d/1PzUZyTUhgwTpvlhgwE5YPT5GXPA_NoSy/view"> 説明スライド </a>
+          <a href="https://drive.google.com/file/d/1PzUZyTUhgwTpvlhgwE5YPT5GXPA_NoSy/view" target="_blank" rel="noopener noreferrer"> 説明スライド </a>
           <br />
           <br />
 
           enPiT2020での成果物 <br />
-          <a href="https://bloodcurdling-cemetery-16965.herokuapp.com/"> Goodbuy </a>
+          <a href="https://bloodcurdling-cemetery-16965.herokuapp.com/" target="_blank" rel="noopener noreferrer"> Goodbuy </a>
           と
-          <a href="https://docs.google.com/presentation/d/1QCJ1WCg9zngbLG4tI_DoR6qx911PPcrEr7-CrfvoV88/edit#slide=id.p"> 説明スライド </a>
+          <a href="https://docs.google.com/presentation/d/1QCJ1WCg9zngbLG4tI_DoR6qx911PPcrEr7-CrfvoV88/edit#slide=id.p" target="_blank" rel="noopener noreferrer"> 説明スライド </a>
           <br />
 
         </v-card-text>

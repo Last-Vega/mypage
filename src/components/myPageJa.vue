@@ -3,7 +3,7 @@
     <v-row
       justify="center" align-content="center"
     >
-      <v-card>
+      <v-card raised width="500" class="ma-2">
         <v-card-title>
           渡邉真悟 (Shingo Watanabe)
         </v-card-title>
@@ -16,12 +16,18 @@
           alt="John"
         >
         </v-avatar>
-
+        <details>
+          <summary>自己紹介(クリックで表示)</summary>
+          知識情報・図書館学類の渡邉真悟です。<br />
+          新潟出身で塾講師のアルバイトをしています。筆記用具を雑に扱う小学生に鉛筆が泣いてるよと言ったら、鉛筆に感情はないと返されてしまいました。お受験よりも先にトイストーリーを見させてあげるべきだと思います。<br />
+          普段は医学図書館で勉強したり、ジムで体を鍛えたり、サウナで整ったり、ドライブに行ったり、映画を見たりと、暇だからできる時間の使い方をしています。ジム後のサウナが1番のマイブームです。<br />
+          趣味に関しても勉強方面に関しても割と雑食な方なので、やりたいことを見極めつつ語学力も向上させて、mlabのみなさんについていきたいです。これからよろしくお願いします。<br />
+        </details>
         <v-divider inset></v-divider>
         <h3> 所属 </h3>
         <v-card-text>
-          筑波大学 知識情報・図書館学類 知識情報・システム主専攻 <br />
-          融合知能デザイン研究室
+          ・筑波大学 知識情報・図書館学類 知識情報システム主専攻 <br />
+          ・融合知能デザイン研究室
         </v-card-text>
 
         <v-divider inset></v-divider>
@@ -59,7 +65,7 @@
           <br />
           <br />
 
-          enpit2020での成果物 <br />
+          enPiT2020での成果物 <br />
           <a href="https://bloodcurdling-cemetery-16965.herokuapp.com/"> Goodbuy </a>
           と
           <a href="https://docs.google.com/presentation/d/1QCJ1WCg9zngbLG4tI_DoR6qx911PPcrEr7-CrfvoV88/edit#slide=id.p"> 説明スライド </a>

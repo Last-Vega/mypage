@@ -16,12 +16,17 @@
       <div v-else-if="this.status != 1">
         <myPageEn />
       </div>
+      <a class="microtask repeat" href="//crowd4u.org">
+        <img src="//crowd4u.org/img/crowd4u_banner364x93.png">
+      </a>
   </v-app>
 </template>
 
 <script>
 import myPageEn from './myPageEn.vue'
 import myPageJa from './myPageJa.vue'
+
+// const src = '//crowd4u.org/script/task_loader.js?requester=2143&length=10'
 
 export default {
   name: 'Nav',

@@ -10,7 +10,6 @@
 // import HelloWorld from './components/HelloWorld'
 import Nav from './components/Nav.vue'
 
-
 export default {
   name: 'App',
   components: {

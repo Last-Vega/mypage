@@ -19,7 +19,7 @@
         <details>
           <summary>About Me(Click to display)</summary>
            Hi there! I'm Shingo Watanabe. <br />
-           I'm from Niigata prefecture, which is famous for rice and heavy snowing. I also work part-time as a cram school teacher. When I said 'Your pencil can be crying' to an elementary school student who did not care his writing materials, he replied that pencils did not have feeling. I thought he should watch Toy Story before studying math, English, etc...<br />
+           I'm from Niigata prefecture, which is famous for rice and heavy snowing. I also work part-time as a cram school teacher. When I said 'Your pencil may be crying' to an elementary school student who did not care his writing materials, he replied that pencils did not have feeling. I thought he should watch Toy Story before studying math, English, etc...<br />
            I usually spend my free time studying at library, working out at the gym, letting me feel better in sauna ,going for a drive, and watching movies. The sauna after the gym is my favorite.<br />
            I'm a bit of an omnivore when it comes to both hobbies and studies, so I'd like to keep up with everyone at mlab by improving my language skills while figuring out what I want to do. I'm looking forward to working with you.
         </details>

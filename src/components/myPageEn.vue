@@ -53,7 +53,8 @@
         <h3> Work Experiences </h3>
         <v-card-text>
           Feb.2020 The Japan Research Institute, Short Internship<br />
-          Aug.2020 Rakuten, Short Internship
+          Aug.2020 Rakuten, Short Internship <br />
+          Since Mar.2021 Nyle Corporation Long-term Internship (Frontend Engineer)
         </v-card-text>
 
         <v-divider inset></v-divider>

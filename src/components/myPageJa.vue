@@ -34,7 +34,7 @@
         <h3> 連絡先 </h3>
         <v-card-text>
           住所: 305-0821 茨城県つくば市春日1-2 7D501 <br />
-          E-mail: shingo.watanabe.2021-b [at] mlab.info
+          E-mail: shingo.watanabe.2021b [at] mlab.info
         </v-card-text>
 
         <v-divider inset></v-divider>

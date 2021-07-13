@@ -34,7 +34,7 @@
         <v-divider inset></v-divider>
         <h3> Contact </h3>
         <v-card-text>
-          Address: Room 7D501, Kasuga 1-2, Tsukuba, Ibaraki 305-8550, Japan <br />
+          Address: Room u305, Media Union, Kasuga 1-2, Tsukuba, Ibaraki 305-8550, Japan <br />
           E-mail: shingo.watanabe.2021b [at] mlab.info
         </v-card-text>
 

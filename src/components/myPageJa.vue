@@ -33,7 +33,7 @@
         <v-divider inset></v-divider>
         <h3> 連絡先 </h3>
         <v-card-text>
-          住所: 305-0821 茨城県つくば市春日1-2 7D501 <br />
+          住所: 305-0821 茨城県つくば市春日1-2 筑波大学 春日エリア 情報メディアユニオン棟3F u305室 <br />
           E-mail: shingo.watanabe.2021b [at] mlab.info
         </v-card-text>
 

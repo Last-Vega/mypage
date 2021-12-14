@@ -3,9 +3,9 @@
     <div class="container">
       <div class="content has-text-centered">
         <p class="reveal">
-          © 2018 Loke Carlsson, made with lots of ❤️ and steaming hot ☕️.
+          © All Right Reserved.
         </p>
-        <p class="reveal">
+        <!-- <p class="reveal">
           <a class="icon"
             v-for="item in social"
             :href="item.link"
@@ -14,7 +14,7 @@
             rel="noopener">
             <b-icon :icon="item.icon"></b-icon>
           </a>
-        </p>
+        </p> -->
       </div>
     </div>
   </footer>

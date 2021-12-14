@@ -1,19 +1,13 @@
 <template>
   <section id="about" class="section">
-    <div class="container has-text-centered">
+    <div class="container">
       <div class="image avatar">
-        <img src="../assets/img/profile.png">
+        <img src="../assets/img/me_rounded.jpeg">
       </div>
-      <h2 class="title is-2">About</h2>
+      <h2 class="title is-2 has-text-centered">About</h2>
       <separator></separator>
       <div class="about-text block">
-        I'm Loke, a webdeveloper from <a href="https://goo.gl/maps/yDZuGKwtraM2">Kalmar</a>.
-        <br>
-        Since I was a kid I have had an interest for computers and creating stuff and this have led me to the world wide web as a developer creating all kind of stuff!
-        <br>
-        Currently studying on my third year at <a href="https://lnu.se/">Linneaus University</a> in Kalmar, Sweden.
-        I have completed the two year <a href="https://lnu.se/program/webbprogrammerare/kalmar-ht/">Webdeveloper Programme</a>
-        and now studying for my bachelor's degree in <a href="https://lnu.se/program/pabyggnadsutbildning-inom-datavetenskap-kandidatexamen/">Computer Science</a>.
+        My name is Shingo Watanabe. I a Bachelor's student at the College of Knowledge and Library Sciences in in the School of Informatics, at <a href="https://www.tsukuba.ac.jp/">University of Tsukuba</a>. My major is information science and systems. I am conducting my research with a data science approach. Now, I am a member of <a href="https://fusioncomplab.org">fusioncomp lab</a> which mainly studying human computation or crowdsourcing, and I am particularly interested in human-AI collaboration in the information management. Since human-in-the-loop approach is effective way to solve the difficult problem which AI can not solve alone. By develop and utilizing the human-AI collaboration system, I firmly believe that our real world will be getting better and useful. In my research, I am developing a document management system which is based on human-in-the-loop latent space learning. The idea of this system is acquiring user's criterion of document management by human-in-the-loop. If our system can be effective, the user need not worry about taking up his or her time to manage document. I have a passion for developing the system which makes our real world better. Therefore, I will continue my studies in the field of information science in terms of human-AI collaboration system where I am researching.
       </div>
     </div>
   </section>

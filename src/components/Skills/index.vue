@@ -17,10 +17,10 @@
               :href="skill.url"
               :title="skill.name">
               <clazy-load :src="skill.image">
-                <img :src="skill.image" :alt="skill.name">
+                <div v-html="skill.image" />
                 <div class="preloader" slot="placeholder" />
               </clazy-load>
-              
+
             </a>
           </div>
         </div>
@@ -62,12 +62,13 @@ export default {
     justify-content: center;
   }
 
-  .skill img {
+  .skill {
     padding: 0.5em;
     margin: 0 auto;
-    max-width: 50%;
-    opacity: 0.6;
+    // max-width: 50%;
+    // opacity: 0.8;
     transition: all 0.15s ease-in;
+    width: 100px;
 
     &:hover {
       opacity: 1;

@@ -5,7 +5,7 @@
     <do></do>
     <projects></projects>
     <skills></skills>
-    <fork></fork>
+    <!-- <fork></fork> -->
     <contact></contact>
     <copyright></copyright>
   </div>
@@ -18,7 +18,7 @@ import Do from './components/Do';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
-import Fork from './components/Fork';
+// import Fork from './components/Fork';
 import Copyright from './components/Copyright';
 
 export default {
@@ -29,7 +29,7 @@ export default {
     Do,
     Projects,
     Skills,
-    Fork,
+    // Fork,
     Contact,
     Copyright,
   },

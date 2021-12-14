@@ -32,19 +32,30 @@ export default {
   name: 'navbar',
   data() {
     return {
-      logo: 'Loke Carlsson',
+      logo: 'Shingo Watanabe',
       isExpanded: false,
       menuItems: [
         {
-          title: 'About',
+          title: 'AboutMe',
           el: '#about',
-        }, {
-          title: 'Projects',
-          el: '#projects',
-        }, {
+        },
+        // {
+        //   title: 'Projects',
+        //   el: '#projects',
+        // },
+        {
           title: 'Skills',
           el: '#skills',
-        }, {
+        },
+        {
+          title: 'Publications',
+          el: '#publications',
+        },
+        {
+          title: 'Experiences',
+          el: '#experiences',
+        },
+        {
           title: 'Contact',
           el: '#contact',
         },

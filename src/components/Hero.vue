@@ -6,10 +6,11 @@
         <nav-bar />
       </div>
       <div class="hero-body">
-        
+
         <div class="container has-text-centered">
           <div class="image logotype">
-            <img src="../assets/img/logo.png">
+            <!-- <img src="../assets/img/logo.png"> -->
+            <h3 class="title is-5">{{ title }}</h3>
           </div>
           <separator color="white"></separator>
           <h5 class="subtitle is-5">{{ subtitle }}</h5>
@@ -36,8 +37,8 @@ export default {
   },
   data() {
     return {
-      title: 'Portfolio',
-      subtitle: 'Building the web, one line of code at a time.',
+      title: 'Shingo Watanabe | 渡邉真悟',
+      subtitle: 'Tsukuba, Ibaraki, Japan',
       isPrimary: true,
     };
   },

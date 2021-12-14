@@ -4,7 +4,7 @@
       <div class="block has-text-centered">
         <h2 class="title is-2">Skills</h2>
         <separator></separator>
-        <h5 class="subtitle is-5">Technologies I work in most frequently.</h5>
+        <h5 class="subtitle is-5">Technologies I have used.</h5>
       </div>
       <div class="skills columns is-multiline is-mobile">
         <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop"

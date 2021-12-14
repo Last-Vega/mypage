@@ -2,10 +2,12 @@
   <div id="app" v-cloak>
     <hero></hero>
     <about></about>
-    <do></do>
-    <projects></projects>
+    <!-- <do></do> -->
+    <!-- <projects></projects> -->
     <skills></skills>
     <!-- <fork></fork> -->
+    <Publications />
+    <Timeline />
     <contact></contact>
     <copyright></copyright>
   </div>
@@ -14,24 +16,28 @@
 <script>
 import Hero from './components/Hero';
 import About from './components/About';
-import Do from './components/Do';
-import Projects from './components/Projects';
+// import Do from './components/Do';
+// import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 // import Fork from './components/Fork';
 import Copyright from './components/Copyright';
+import Timeline from './components/Timeline'
+import Publications from './components/Publications';
 
 export default {
   name: 'app',
   components: {
     Hero,
     About,
-    Do,
-    Projects,
+    // Do,
+    // Projects,
     Skills,
     // Fork,
     Contact,
     Copyright,
+    Timeline,
+    Publications
   },
 };
 </script>

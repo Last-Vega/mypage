@@ -1,5 +1,5 @@
 <template>
-  <section id="projects" class="section no-h-padding">
+  <section id="products" class="section no-h-padding">
     <div class="block has-text-centered">
       <h2 class="title is-2">Products</h2>
       <separator></separator>

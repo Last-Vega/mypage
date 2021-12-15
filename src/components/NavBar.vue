@@ -39,10 +39,6 @@ export default {
           title: 'AboutMe',
           el: '#about',
         },
-        // {
-        //   title: 'Projects',
-        //   el: '#projects',
-        // },
         {
           title: 'Skills',
           el: '#skills',
@@ -54,6 +50,10 @@ export default {
         {
           title: 'Experiences',
           el: '#experiences',
+        },
+        {
+          title: 'Products',
+          el: '#products',
         },
         {
           title: 'Contact',

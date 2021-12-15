@@ -8,3 +8,5 @@ export { default as pwd } from './pwd.png';
 export { default as quiz } from './quiz.png';
 export { default as snippet } from './snippet.png';
 export { default as searchengine } from './searchengine.png';
+export { default as goodbuy } from './goodbuy.png';
+export { default as tabiluck } from './tabiluck.png';

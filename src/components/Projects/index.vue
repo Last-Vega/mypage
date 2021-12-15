@@ -1,12 +1,12 @@
 <template>
   <section id="projects" class="section no-h-padding">
     <div class="block has-text-centered">
-      <h2 class="title is-2">Projects</h2>
+      <h2 class="title is-2">Products</h2>
       <separator></separator>
     </div>
     <div class="cardContainer columns">
       <div
-        class="project column is-one-quarter"
+        class="project column is-one-third"
         v-for="(project, index) in projects"
         :key="index">
         <Card class="reveal" :data-project="project">

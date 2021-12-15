@@ -3,11 +3,11 @@
     <hero></hero>
     <about></about>
     <!-- <do></do> -->
-    <!-- <projects></projects> -->
     <skills></skills>
     <!-- <fork></fork> -->
     <Publications />
     <Timeline />
+    <projects></projects>
     <contact></contact>
     <copyright></copyright>
   </div>
@@ -17,7 +17,7 @@
 import Hero from './components/Hero';
 import About from './components/About';
 // import Do from './components/Do';
-// import Projects from './components/Projects';
+import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 // import Fork from './components/Fork';
@@ -31,7 +31,7 @@ export default {
     Hero,
     About,
     // Do,
-    // Projects,
+    Projects,
     Skills,
     // Fork,
     Contact,

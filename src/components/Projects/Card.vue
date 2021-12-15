@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <figure class="image is-1by1">
+      <figure class="image">
         <clazy-load :src="this.dataProject.projectImage">
           <img :src="this.dataProject.projectImage" alt="Project image">
           <div class="preloader" slot="placeholder" />
@@ -18,7 +18,8 @@
       </div>
 
       <div class="content">
-        {{this.dataProject.description}}
+        <span v-html="this.dataProject.description" />
+        <!-- {{this.dataProject.description}} -->
         <br>
       </div>
       <div class="bottom">
@@ -28,10 +29,16 @@
           </span>
           <span>GitHub</span>
         </a>
+        <a class="button" target="_blank" :href="this.dataProject.slideUrl" :disabled="!this.dataProject.url">
+          <span class="icon">
+            <i class="fa fa-google"></i>
+          </span>
+          <span>Slides</span>
+        </a>
         <a class="button is-primary" target="_blank" :href="this.dataProject.url" :disabled="!this.dataProject.url">
           <span>Demo</span>
         </a>
-      </div>      
+      </div>
     </div>
   </div>
 </template>
@@ -56,6 +63,7 @@ export default {
 
   .card {
         height: 100%;
+        width: 150%;
 
   }
 
@@ -77,7 +85,9 @@ export default {
   }
 
   card-image {
-    padding: 20px;
+    padding: 0px;
+    width: 100px;
+    margin: 0 auto;
   }
 
 </style>

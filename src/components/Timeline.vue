@@ -8,7 +8,9 @@
         </header>
 
         <div class="timeline-item is-primary">
-          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-marker is-icon is-primary">
+            <i class="fa fa-university" aria-hidden="true"></i>
+          </div>
           <div class="timeline-content">
             <p class="heading">April 2018</p>
             <p>Entered University of Tsukuba</p>
@@ -16,7 +18,9 @@
         </div>
 
         <div class="timeline-item is-primary">
-          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-marker is-icon is-primary">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </div>
           <div class="timeline-content">
             <p class="heading">August 2018</p>
             <p>Studying English in the U.S.</p>
@@ -33,15 +37,19 @@
         </header>
 
         <div class="timeline-item is-primary">
-          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-marker is-primary is-icon">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
+          </div>
           <div class="timeline-content">
-            <p class="heading">From February 2020</p>
+            <p class="heading">February 2020</p>
             <p>2days-Internship at Japan Research Institute, Ltd.</p>
           </div>
         </div>
 
         <div class="timeline-item is-primary">
-          <div class="timeline-marker is-primary"></div>
+          <div class="timeline-marker is-primary is-icon">
+            <i class="fa fa-globe" aria-hidden="true"></i>
+          </div>
           <div class="timeline-content">
             <p class="heading">From February to March 2020</p>
             <p>Studying English in Cebu</p>
@@ -49,8 +57,8 @@
         </div>
 
         <div class="timeline-item is-primaryr">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fa fa-flag"></i>
+          <div class="timeline-marker is-icon is-primary">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
           </div>
           <div class="timeline-content">
             <p class="heading">August 2020</p>
@@ -59,8 +67,8 @@
         </div>
 
         <div class="timeline-item is-primaryr">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fa fa-flag"></i>
+          <div class="timeline-marker is-primary is-icon">
+            <i class="fa fa-university" aria-hidden="true"></i>
           </div>
           <div class="timeline-content">
             <p class="heading">December 2020</p>
@@ -73,8 +81,8 @@
         </header>
 
         <div class="timeline-item is-primaryr">
-          <div class="timeline-marker is-danger is-icon">
-            <i class="fa fa-flag"></i>
+          <div class="timeline-marker is-primary is-icon">
+            <i class="fa fa-laptop" aria-hidden="true"></i>
           </div>
           <div class="timeline-content">
             <p class="heading">From March 2021 to October 2021</p>

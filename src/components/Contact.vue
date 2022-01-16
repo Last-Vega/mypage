@@ -6,7 +6,8 @@
       <h5 class="subtitle reveal is-5">
         305-0821 茨城県つくば市春日1-2 筑波大学 春日エリア 情報メディアユニオン棟3F u305室<br />
         Room u305, Media Union, Kasuga 1-2, Tsukuba, Ibaraki 305-8550, Japan <br />
-        E-mail: shingo.watanabe.2021b [at] mlab.info<br />
+        E-mail1: watanabe.shingo.ss [at] alumni.tsukuba.ac.jp<br />
+        E-mail2: shingo.watanabe.2021b [at] mlab.info<br />
       </h5>
       <div class="block reveal">
         <a class="button grow is-dark"
@@ -36,7 +37,7 @@ export default {
   name: 'contact',
   data() {
     return {
-      email: 'shingo.watanabe.2021b@mlab.info',
+      email: 'watanabe.shingo.ss@alumni.tsukuba.ac.jp',
       social: [
         {
           icon: '<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png" />',

@@ -3,7 +3,7 @@
     <div class="container">
       <div class="content has-text-centered">
         <p class="reveal">
-          © All Right Reserved.
+          © All Rights Reserved.
         </p>
         <!-- <p class="reveal">
           <a class="icon"

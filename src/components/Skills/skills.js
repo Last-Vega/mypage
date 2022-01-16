@@ -30,7 +30,7 @@ export default [
     image: '<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" />'
   },
   {
-    name: 'aws',
-    image: '<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" />'
+    name: 'firebase',
+    image: '<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg" />'
   }
 ];

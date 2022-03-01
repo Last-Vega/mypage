@@ -5,20 +5,25 @@
       <separator></separator>
     </div>
     <div class="cardContainer columns">
-      <div
-        class="project column is-one-quarter"
-        v-for="(project, index) in projects"
-        :key="index">
-        <Card class="reveal" :data-project="project">
-        </Card>
-      </div>
+      <b class="conference">国際会議・Workshop</b>
+      <ul>
+        <li>
+          "A Document Management System based on Human-in-the-Loop Latent Space Learning". <u>Shingo Watanabe</u>，Hiroyoshi Ito，Masaki Matsubara，Atsuyuki Morishima．iConference2022 Student Symposium. 2022.3
+        </li>
+      </ul>
+    </div>
+    <hr />
+    <div class="cardContainer columns">
+      <b class="conference">国内会議・ワークショップ</b>
+      <ul>
+        <li>
+          "Human-in-the-loop 潜在空間学習による空間型インタラクティブ文献管理システム". <u>渡邉真悟</u>，伊藤寛祥，松原正樹，森嶋厚行．第14回データ工学と情報マネジメントに関するフォーラム(DEIM2022)．G21-1．8pages．<a href="https://cms.dbsj.org/deim2022/participant/?channel=paper&id=G21-1" target="_blank" rel="noopener noreferrer">論文</a>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
 
-<script>
-
-</script>
 
 <style lang="scss" scoped>
 @import '~vars';
@@ -79,5 +84,9 @@
   flex-wrap: wrap;
   max-width: 2000px;
   margin: auto;
+}
+
+.conference {
+  font-size: 2rem;
 }
 </style>

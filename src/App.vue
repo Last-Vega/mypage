@@ -22,7 +22,7 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 // import Fork from './components/Fork';
 import Copyright from './components/Copyright';
-import Timeline from './components/Timeline'
+import Timeline from './components/Timeline';
 import Publications from './components/Publications';
 
 export default {

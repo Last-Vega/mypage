@@ -52,6 +52,10 @@ export default {
           el: '#experiences',
         },
         {
+          title: 'Carrier',
+          el: '#carrier',
+        },
+        {
           title: 'Products',
           el: '#products',
         },

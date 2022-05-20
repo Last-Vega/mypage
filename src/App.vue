@@ -7,6 +7,7 @@
     <!-- <fork></fork> -->
     <Publications />
     <Timeline />
+    <Carrier />
     <projects></projects>
     <contact></contact>
     <copyright></copyright>
@@ -24,6 +25,7 @@ import Contact from './components/Contact';
 import Copyright from './components/Copyright';
 import Timeline from './components/Timeline';
 import Publications from './components/Publications';
+import Carrier from './components/Carrier.vue';
 
 export default {
   name: 'app',
@@ -37,7 +39,8 @@ export default {
     Contact,
     Copyright,
     Timeline,
-    Publications
+    Publications,
+    Carrier
   },
 };
 </script>

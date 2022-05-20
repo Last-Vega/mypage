@@ -1,95 +1,50 @@
 <template>
-  <section id="carrier" class="section">
-    <div class="container">
-      <h2 class="title is-2 has-text-centered">Carrier</h2>
+  <section id="carrier" class="section no-h-padding">
+    <div class="block has-text-centered">
+      <h2 class="title is-2">職務経歴 / Carrier</h2>
       <separator></separator>
-      <div class="cardContainer columns">
-        <b class="conference">インターンシップ / Internship</b>
-      </div>
-      <ul>
-          <li>
-            日本総研
-          </li>
-          <li>
-            楽天
-          </li>
-        </ul>
-      <hr />
-
-      <div class="cardContainer columns">
-        <b class="conference">ティーチングアシスタント / Teaching Assistant</b>
-      </div>
-      <hr />
-
+    </div>
+    <div class="cardContainer">
+      <b class="carrierInfo">インターンシップ / Internship</b>
+      <ol class="content">
+        <li>
+          日本総研: 2020.2 3 days ハッカソン
+        </li>
+        <li>
+          楽天: 2020.8 2 weeks ハッカソン
+        </li>
+        <li>
+          ナイル株式会社: 2021.3~10 長期インターン　フロントエンドエンジニア
+        </li>
+      </ol>
+    </div>
+    <hr />
+    <div class="cardContainer">
+      <b class="carrierInfo">ティーチングアシスタント / Teaching Assistant</b>
+      <ol class="content">
+        <li>
+          線形代数A: 2022.5~8 筑波大学 情報学群 知識情報・図書館学類
+        </li>
+      </ol>
+    </div>
+    <hr />
+    <div class="cardContainer">
+      <b class="carrierInfo">リサーチアシスタント / Research Assistant</b>
     </div>
   </section>
 </template>
 
-<script>
-</script>
 
 <style lang="scss" scoped>
 @import '~vars';
 @import '~bulma/sass/utilities/mixins';
 
-.project {
-    min-width: 308px;
-}
-
-.project-list {
-  padding: 1.5rem 0;
-
-  @include mobile {
-      padding: 1.5rem 1rem;
-  }
-
-  .project {
-    padding: 0.5rem 1rem;
-
-    a {
-      position: relative;
-      color: rgba($white, 0.7);
-      transition: color 0.2s linear;
-
-      &::after {
-        content: '';
-        background-color: $white;
-        position: absolute;
-        height: 2px;
-        width: 0;
-        left: -0.1rem;
-        bottom: -0.25rem;
-        transition: width 0.2s linear;
-      }
-
-      &.active {
-        color: $white;
-
-        &::after {
-          width: calc(100% + 0.25rem);
-        }
-      }
-
-      &:hover {
-        color: $white;
-      }
-    }
-  }
-}
-
-.section.no-h-padding {
-  padding: 3rem 0;
-}
-
-.cardContainer {
-  padding: 40px 80px;
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 2000px;
-  margin: auto;
-}
-
-.conference {
+.carrierInfo {
   font-size: 2rem;
 }
+
+.content {
+  padding-left: 2em;
+}
+
 </style>

@@ -25,11 +25,23 @@
         <li>
           線形代数A: 2022.5~8 筑波大学 情報学群 知識情報・図書館学類
         </li>
+        <li>
+          プログラミング入門A: 2022.10~12 筑波大学 情報学群 知識情報・図書館学類
+        </li>
+        <li>
+          プログラミング入門B: 2023.1~2 筑波大学 情報学群 知識情報・図書館学類
+        </li>
       </ol>
     </div>
     <hr />
     <div class="cardContainer">
       <b class="carrierInfo">リサーチアシスタント / Research Assistant</b>
+      <ol class="content">
+        <li>
+          図書館情報メディア系: 2022.8 ~ 2023.3 特許情報等を用いた技術トレンド分析・予測に関する実用システム化の検証
+        </li>
+
+      </ol>
     </div>
   </section>
 </template>

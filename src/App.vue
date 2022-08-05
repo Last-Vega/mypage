@@ -6,8 +6,9 @@
     <skills></skills>
     <!-- <fork></fork> -->
     <Publications />
-    <Timeline />
+    <!-- <Timeline /> -->
     <Carrier />
+    <Grants />
     <projects></projects>
     <contact></contact>
     <copyright></copyright>
@@ -23,9 +24,10 @@ import Skills from './components/Skills';
 import Contact from './components/Contact';
 // import Fork from './components/Fork';
 import Copyright from './components/Copyright';
-import Timeline from './components/Timeline';
+// import Timeline from './components/Timeline';
 import Publications from './components/Publications';
 import Carrier from './components/Carrier.vue';
+import Grants from './components/Grants.vue';
 
 export default {
   name: 'app',
@@ -38,9 +40,10 @@ export default {
     // Fork,
     Contact,
     Copyright,
-    Timeline,
+    // Timeline,
     Publications,
-    Carrier
+    Carrier,
+    Grants
   },
 };
 </script>

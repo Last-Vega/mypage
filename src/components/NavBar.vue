@@ -47,13 +47,17 @@ export default {
           title: 'Publications',
           el: '#publications',
         },
-        {
-          title: 'Experiences',
-          el: '#experiences',
-        },
+        // {
+        //   title: 'Experiences',
+        //   el: '#experiences',
+        // },
         {
           title: 'Carrier',
           el: '#carrier',
+        },
+        {
+          title: 'Grants',
+          el: '#grants'
         },
         {
           title: 'Products',

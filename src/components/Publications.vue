@@ -11,7 +11,7 @@
           "A Document Management System based on Human-in-the-Loop Latent Space Learning". <u>Shingo Watanabe</u>，Hiroyoshi Ito，Masaki Matsubara，Atsuyuki Morishima．iConference2022 Student Symposium. 2022.3
         </li>
         <li>
-          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara and Atsuyuki Morishima, "Bibrecord-based Literature Management with Interactive Latent Space Learning", The 24th International Conference on Asia-Pacific Digital Libraries (ICADL 2022), November30-December2 ,2022, Hanoi, Vietnam (Accepted)
+          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara and Atsuyuki Morishima, "Bibrecord-based Literature Management with Interactive Latent Space Learning", The 24th International Conference on Asia-Pacific Digital Libraries (ICADL 2022), November30-December2 ,2022, Hanoi, Vietnam <font color="red">(Best Student Paper Award)</font>
         </li>
       </ul>
     </div>
@@ -91,5 +91,9 @@
 
 .conference {
   font-size: 2rem;
+}
+
+#bp {
+  color: red;
 }
 </style>

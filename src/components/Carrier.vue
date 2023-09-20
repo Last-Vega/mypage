@@ -29,6 +29,15 @@
     </div>
     <hr />
     <div class="cardContainer">
+        <b class="carrierInfo">業務委託 / As a freelance</b>
+        <ol class="content">
+          <li>
+            株式会社Telportal: 漫画自動生成AIに関する開発業務
+          </li>
+        </ol>
+      </div>
+      <hr />
+    <div class="cardContainer">
       <b class="carrierInfo">ティーチングアシスタント / Teaching Assistant</b>
       <ol class="content">
         <li>

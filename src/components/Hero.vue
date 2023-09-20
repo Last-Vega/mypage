@@ -14,6 +14,7 @@
           </div>
           <separator color="white"></separator>
           <h5 class="subtitle is-5">{{ subtitle }}</h5>
+          <h5 class="subtitle is-5">{{ subtitle2 }}</h5>
         </div>
       </div>
       <div class="hero-foot">
@@ -38,7 +39,8 @@ export default {
   data() {
     return {
       title: 'Shingo Watanabe | 渡邉真悟',
-      subtitle: 'Tsukuba, Ibaraki, Japan',
+      subtitle: 'Shibuya Tokyo, Japan',
+      subtitle2: '業務委託募集中',
       isPrimary: true,
     };
   },

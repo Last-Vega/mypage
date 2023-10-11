@@ -5,6 +5,14 @@
       <separator></separator>
     </div>
     <div class="cardContainer columns">
+        <b class="conference">学術雑誌論文・Refereed Journal Paper</b>
+        <ol>
+          <li>
+            Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara, Atsuyuki Morishima, "Human-in-the-loop Latent Space Learning for Bibrecord-based Literature Management", International Journal on Digital Libraries,  Vol.XX, No.XX, pp.XX-XX, 202X.
+          </li>
+        </ol>
+      </div>
+    <div class="cardContainer columns">
       <b class="conference">国際会議・Workshop</b>
       <ol>
         <li>

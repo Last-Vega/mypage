@@ -4,26 +4,19 @@
       <h2 class="title is-2">Contact</h2>
       <separator color="black"></separator>
       <h5 class="subtitle reveal is-5">
-        305-0821 茨城県つくば市春日1-2 筑波大学 春日エリア 情報メディアユニオン棟3F u305室<br />
-        Room u305, Media Union, Kasuga 1-2, Tsukuba, Ibaraki 305-8550, Japan <br />
+        150-0043 東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F−C<br />
+        Shibuya Dogenzaka Tokyu Building 2F-C, Dogenzaka 1-10-8, Shibuya-ku, Tokyo 150-0043, Japan<br />
         E-mail1: watanabe.shingo.ss [at] alumni.tsukuba.ac.jp<br />
-        E-mail2: shingo.watanabe.2021b [at] mlab.info<br />
       </h5>
       <div class="block reveal">
-        <a class="button grow is-dark"
-          :href="`mailto:${email}`">
-            <span>Ping me | メールを送る</span>
-            <b-icon icon="terminal" size="is-small" />
+        <a class="button grow is-dark" :href="`mailto:${email}`">
+          <span>Ping me | メールを送る</span>
+          <b-icon icon="terminal" size="is-small" />
         </a>
       </div>
       <div class="columns is-full">
         <div class="column">
-          <a class="icon"
-            v-for="item in social"
-            :href="item.link"
-            :key="item.id"
-            target="_blank"
-            rel="noopener">
+          <a class="icon" v-for="item in social" :href="item.link" :key="item.id" target="_blank" rel="noopener">
             <div v-html="item.icon" class="is-large" />
           </a>
         </div>

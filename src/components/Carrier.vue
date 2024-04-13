@@ -5,6 +5,13 @@
       <separator></separator>
     </div>
     <div class="cardContainer">
+      <b class="carrierInfo">正社員 / As an employee</b>
+      <ol class="content">
+        <li>
+          株式会社サイバーエージェント: 2024.4~ データサイエンティスト/機械学習エンジニア
+        </li>
+      </ol>
+      <hr />
       <b class="carrierInfo">インターンシップ / Internship</b>
       <ol class="content">
         <li>
@@ -28,18 +35,21 @@
         <li>
           株式会社サイバーエージェント: 2023.10~11 内定者アルバイト(株式会社CAM Creative Division)
         </li>
+        <li>
+          株式会社サイバーエージェント: 2024.1~3 内定者アルバイト(AI事業本部)
+        </li>
       </ol>
     </div>
     <hr />
     <div class="cardContainer">
-        <b class="carrierInfo">業務委託 / As a freelance</b>
-        <ol class="content">
-          <li>
-            株式会社Telportal: 漫画自動生成AIに関する開発業務
-          </li>
-        </ol>
-      </div>
-      <hr />
+      <b class="carrierInfo">業務委託 / As a freelance</b>
+      <ol class="content">
+        <li>
+          株式会社Telportal: 漫画自動生成AIに関する開発業務
+        </li>
+      </ol>
+    </div>
+    <hr />
     <div class="cardContainer">
       <b class="carrierInfo">ティーチングアシスタント / Teaching Assistant</b>
       <ol class="content">

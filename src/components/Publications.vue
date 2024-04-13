@@ -5,24 +5,34 @@
       <separator></separator>
     </div>
     <div class="cardContainer columns">
-        <b class="conference">学術雑誌論文・Refereed Journal Paper</b>
-        <ol>
-          <li>
-            Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara, Atsuyuki Morishima, "Human-in-the-loop Latent Space Learning for Bibrecord-based Literature Management", International Journal on Digital Libraries,  Vol.XX, No.XX, pp.XX-XX, 202X.
-          </li>
-        </ol>
-      </div>
+      <b class="conference">学術雑誌論文・Refereed Journal Paper</b>
+      <ol>
+        <li>
+          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara, Atsuyuki Morishima, "Human-in-the-loop Latent Space Learning
+          for Bibrecord-based Literature Management", International Journal on Digital Libraries, Vol.XX, No.XX,
+          pp.XX-XX, 202X.
+        </li>
+      </ol>
+    </div>
+    <hr />
     <div class="cardContainer columns">
       <b class="conference">国際会議・Workshop</b>
       <ol>
         <li>
-          "A Document Management System based on Human-in-the-Loop Latent Space Learning". <u>Shingo Watanabe</u>，Hiroyoshi Ito，Masaki Matsubara，Atsuyuki Morishima．iConference2022 Student Symposium. 2022.3
+          "A Document Management System based on Human-in-the-Loop Latent Space Learning". <u>Shingo
+            Watanabe</u>，Hiroyoshi Ito，Masaki Matsubara，Atsuyuki Morishima．iConference2022 Student Symposium. 2022.3
         </li>
         <li>
-          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara and Atsuyuki Morishima, "Bibrecord-based Literature Management with Interactive Latent Space Learning", The 24th International Conference on Asia-Pacific Digital Libraries (ICADL 2022), November30-December2 ,2022, Hanoi, Vietnam <font color="red">(Best Student Paper Award)</font>
+          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara and Atsuyuki Morishima, "Bibrecord-based Literature
+          Management with Interactive Latent Space Learning", The 24th International Conference on Asia-Pacific Digital
+          Libraries (ICADL 2022), November30-December2 ,2022, Hanoi, Vietnam <font color="red">(Best Student Paper
+            Award)</font>
         </li>
         <li>
-          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara, Atsuyuki Morishima, "Human-in-the-loop Latent Space Learning for Bibrecord-based Literature Management", The 27th International Conference on Theory and Practice of Digital Libraries (TPDL 2023), September26-29 ,2023, Zadar, Croatia <font color="red">(IJDL Invited Paper)</font>
+          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara, Atsuyuki Morishima, "Human-in-the-loop Latent Space Learning
+          for Bibrecord-based Literature Management", The 27th International Conference on Theory and Practice of
+          Digital Libraries (TPDL 2023), September26-29 ,2023, Zadar, Croatia <font color="red">(IJDL Invited Paper)
+          </font>
         </li>
       </ol>
     </div>
@@ -31,7 +41,25 @@
       <b class="conference">国内会議・ワークショップ</b>
       <ol>
         <li>
-          "Human-in-the-loop 潜在空間学習による空間型インタラクティブ文献管理システム". <u>渡邉真悟</u>，伊藤寛祥，松原正樹，森嶋厚行．第14回データ工学と情報マネジメントに関するフォーラム(DEIM2022)．G21-1．8pages．<a href="https://cms.dbsj.org/deim2022/participant/?channel=paper&id=G21-1" target="_blank" rel="noopener noreferrer">論文</a>
+          "Human-in-the-loop 潜在空間学習による空間型インタラクティブ文献管理システム".
+          <u>渡邉真悟</u>，伊藤寛祥，松原正樹，森嶋厚行．第14回データ工学と情報マネジメントに関するフォーラム(DEIM2022)．G21-1．8pages．<a
+            href="https://cms.dbsj.org/deim2022/participant/?channel=paper&id=G21-1" target="_blank"
+            rel="noopener noreferrer">論文</a>
+        </li>
+      </ol>
+    </div>
+    <hr />
+    <div class="cardContainer columns">
+      <b class="conference">受賞・Awards</b>
+      <ol>
+        <li>
+          Shingo Watanabe, Hiroyoshi Ito, Masaki Matsubara and Atsuyuki Morishima, "Bibrecord-based Literature
+          Management with Interactive Latent Space Learning", The 24th International Conference on Asia-Pacific Digital
+          Libraries (ICADL 2022), November30-December2 ,2022, Hanoi, Vietnam <font color="red">(Best Student Paper
+            Award)</font>
+        </li>
+        <li>
+          筑波大学 学生表彰 2023年度 学生表彰 <font color="red">(学長賞)</font>
         </li>
       </ol>
     </div>

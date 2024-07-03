@@ -47,6 +47,9 @@
         <li>
           株式会社Telportal: 漫画自動生成AIに関する開発業務
         </li>
+        <li>
+          株式会社CLIMT: 生成AIに関する開発業務
+        </li>
       </ol>
     </div>
     <hr />

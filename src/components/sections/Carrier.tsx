@@ -16,7 +16,7 @@ const Carrier: React.FC = () => {
         <h2 className="title is-2">職務経歴 / Carrier</h2>
         <Separator />
       </div>
-      
+
       <div className="cardContainer reveal">
         <b className="carrierInfo">正社員 / As an employee</b>
         <ol className="content">
@@ -25,7 +25,7 @@ const Carrier: React.FC = () => {
           </li>
         </ol>
         <hr />
-        
+
         <b className="carrierInfo">インターンシップ / Internship</b>
         <ol className="content">
           <li>日本総研: 2020.2 3 days ハッカソン</li>
@@ -38,19 +38,23 @@ const Carrier: React.FC = () => {
           <li>株式会社サイバーエージェント: 2024.1~3 内定者アルバイト(AI事業本部)</li>
         </ol>
       </div>
-      
+
       <hr />
-      
+
       <div className="cardContainer reveal">
         <b className="carrierInfo">業務委託 / As a freelance</b>
         <ol className="content">
           <li>株式会社Telportal: 漫画自動生成AIに関する開発業務</li>
           <li>株式会社CLIMT: 生成AIに関する開発業務</li>
+          <li>株式会社インフラトップ: 生成AIに関するメンタリング業務</li>
+          <li>株式会社アップグレード: Difyを用いた生成AIアプリ開発支援</li>
+          <li>株式会社OZVISION: 生成AIに関する開発業務</li>
+          <li>株式会社すきだよ: パートナーリレーションシップを改善するためのAIアシスタント開発</li>
         </ol>
       </div>
-      
+
       <hr />
-      
+
       <div className="cardContainer reveal">
         <b className="carrierInfo">ティーチングアシスタント / Teaching Assistant</b>
         <ol className="content">
@@ -63,9 +67,9 @@ const Carrier: React.FC = () => {
           <li>データ構造とアルゴリズム: 2023.10~12 筑波大学 情報学群 知識情報・図書館学類</li>
         </ol>
       </div>
-      
+
       <hr />
-      
+
       <div className="cardContainer reveal">
         <b className="carrierInfo">リサーチアシスタント / Research Assistant</b>
         <ol className="content">

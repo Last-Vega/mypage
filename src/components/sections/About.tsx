@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Separator } from '../common';
+import meRoundedImage from '../../assets/img/me_rounded.jpeg';
 import './About.scss';
 
 const About: React.FC = () => {
@@ -14,7 +15,7 @@ const About: React.FC = () => {
     <section id="about" className="section">
       <div className="container">
         <div className="image avatar">
-          <img src="/assets/img/me_rounded.jpeg" alt="Shingo Watanabe" />
+          <img src={meRoundedImage} alt="Shingo Watanabe" />
         </div>
         <h2 className="title is-2 has-text-centered">About Me</h2>
         <Separator />

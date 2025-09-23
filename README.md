@@ -1,69 +1,175 @@
-<p align="center">
-  <img alt="version badge" src="https://img.shields.io/badge/version-2.1.0-blue.svg?style=flat-square" />
-  <img src="https://img.shields.io/npm/l/vue.svg" alt="License">
-</p>
-<p align="center">A Vue.js Portfolio</p>
-<p align="center"><a href="https://vuejs.org" target="_blank"><img width="100" src="https://vuejs.org/images/logo.png" alt="Vue logo"></a></p>
+# Shingo Watanabe Portfolio
 
-## New site
+## 🚀 技術
+- **Frontend**: React 19, TypeScript
+- **Styling**: SCSS, Bulma CSS Framework
+- **Build Tool**: Create React App
+- **Icons**: Font Awesome 4.7
+- **Animation**: CSS Animations
 
-I have created [loke.dev](https://github.com/LokeCarlsson/loke.dev) to replace this site and also include my new blog. Check it out, it is built using some cool tech like Gridsome!
 
-## Getting Started
+## 🛠️ セットアップ
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+### 前提条件
 
-### Prerequisites
+- Node.js 16.x以上
+- npm 7.x以上
 
-What things you need to install the software and how to install them
+### インストール
 
-``` bash
-Node
-Yarn
+```bash
+# リポジトリをクローン
+git clone <repository-url>
+cd mypage-react
+
+# 依存関係をインストール
+npm install
 ```
 
-### Installing
+### 開発サーバー起動
 
-``` bash
-# Install dependencies
-yarn install
-
-# Serve with hot reload at localhost:8080
-yarn dev
+```bash
+npm start
 ```
 
-## Deployment
+開発サーバーが `http://localhost:3000` で起動します。
 
-``` bash
-# Build for production
-yarn build
+## 🧪 テスト
+
+### テストの実行
+
+```bash
+# 全テストを実行
+npm test
+
+# テストをwatch モードで実行
+npm test -- --watch
+
+# カバレッジ付きでテストを実行
+npm test -- --coverage
 ```
 
-## Running the tests
+### テストファイルの追加
 
-Coming soon..
+- テストファイルは `*.test.tsx` または `*.spec.tsx` の拡張子で作成
+- `src/` フォルダ内のどこにでも配置可能
+- Jest + React Testing Library を使用
 
-## Built With
+### 例: コンポーネントテスト
 
-* [Vue.js](https://vuejs.org/) - Javascript Framework
-* [Buefy.io](https://buefy.github.io/#/) - CSS Framework
+```typescript
+import { render, screen } from '@testing-library/react';
+import Hero from './Hero';
 
-## Contributing
+test('renders hero component', () => {
+  render(<Hero />);
+  const nameElement = screen.getByText(/Shingo Watanabe/i);
+  expect(nameElement).toBeInTheDocument();
+});
+```
 
-Please read [CONTRIBUTING.md](https://github.com/LokeCarlsson/lokecarlsson/blob/master/CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
+## 🔧 ビルド
 
-## Versioning
+### 本番ビルド
 
-I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/LokeCarlsson/lokecarlsson/tags). 
+```bash
+npm run build
+```
 
-## Authors
+最適化されたビルドが `build/` フォルダに生成されます。
 
-* **Loke Carlsson**
+### ビルドの確認
 
-## License
+```bash
+# ローカルでビルドを確認（serve パッケージが必要）
+npx serve -s build
+```
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+## 🚀 デプロイ
+### GitHub Pages でのロイ
 
-## Acknowledgments
+1. **gh-pages パッケージをインストール**
+   ```bash
+   npm install --save-dev gh-pages
+   ```
 
-* Beer raised to anyone who's code was used
+2. **package.json に追加**
+   ```json
+   {
+     "homepage": "https://yourusername.github.io/repository-name",
+     "scripts": {
+       "predeploy": "npm run build",
+       "deploy": "gh-pages -d build"
+     }
+   }
+   ```
+
+3. **デプロイ実行**
+   ```bash
+   npm run deploy
+   ```
+
+## 🎨 カスタマイズ
+
+### 色の変更
+
+`src/assets/styles/variables.scss` で主要な色を変更できます：
+
+```scss
+$primary: #26A69A;    // メインカラー
+$secondary: #26A69A;  // セカンダリカラー
+```
+
+### コンテンツの更新
+
+- **プロジェクト**: `src/data/projects.ts`
+- **スキル**: `src/data/skills.ts`
+- **個人情報**: 各コンポーネントファイル内
+
+### 新しいセクションの追加
+
+1. 新しいコンポーネントを作成
+2. `src/App.tsx` にインポート・追加
+3. `src/components/NavBar.tsx` にナビゲーション項目を追加
+
+## 📱 レスポンシブ対応
+
+- **デスクトップ**: 1024px以上
+- **タブレット**: 768px - 1024px
+- **モバイル**: 768px以下
+
+各コンポーネントでメディアクエリを使用してレスポンシブ対応を実装。
+
+## 🔍 SEO対応
+
+### メタタグの設定
+
+`public/index.html` でメタタグを設定：
+
+```html
+<meta name="keywords" content="データサイエンス,機械学習,React,TypeScript">
+<meta property="og:description" content="データサイエンティスト・機械学習エンジニア">
+```
+
+## 🐛 トラブルシューティング
+
+### よくある問題
+
+1. **ポート3000が使用中**
+   ```bash
+   # 別のポートで起動
+   PORT=3001 npm start
+   ```
+
+2. **SCSS エラー**
+   ```bash
+   # node-sassを再インストール
+   npm uninstall node-sass
+   npm install sass
+   ```
+
+3. **型エラー**
+   ```bash
+   # 型定義を確認
+   npm run type-check
+   ```

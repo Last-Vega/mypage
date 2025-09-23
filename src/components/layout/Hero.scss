@@ -1,0 +1,77 @@
+#hero {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  user-select: none;
+}
+
+.logotype {
+  user-select: none;
+  pointer-events: none;
+  padding-bottom: 20px;
+  max-width: 784px;
+  margin: 0 auto;
+}
+
+// Hero-specific styles are now handled in NavBar.scss
+
+.header-image {
+  background: #0F2027;
+  background: linear-gradient(to right, #2f454e, #203A43, #11252d);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  
+  .container {
+    color: white;
+    
+    .title {
+      color: white !important;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    }
+    
+    .subtitle {
+      color: rgba(255, 255, 255, 0.9) !important;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+
+.scroll-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.scroll-down {
+  font-size: 36px;
+  opacity: 0.5;
+  transition: all ease-in 0.2s;
+  padding-bottom: 3rem;
+  color: white;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

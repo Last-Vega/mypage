@@ -1,0 +1,19 @@
+.icon {
+  padding: 0.5em;
+  margin: 0 auto;
+  width: 60px;
+  transition: all 0.15s ease-in;
+  display: inline-block;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 60px;
+  }
+}

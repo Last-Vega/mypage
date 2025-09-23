@@ -8,14 +8,10 @@
 
 ### 1. GitHub Pages の有効化
 
-#### オプション A: GitHub Actions を使用（推奨）
-1. GitHubリポジトリページにアクセス
-2. **Settings** タブをクリック
-3. 左サイドバーの **Pages** をクリック
-4. **Source** セクションで **GitHub Actions** を選択
-5. **Save** をクリック
+### GitHub Pages の設定（重要）
 
-#### オプション B: docs ディレクトリを使用
+Environment Protection Rules のエラーを回避するため、以下の設定を行ってください：
+
 1. GitHubリポジトリページにアクセス
 2. **Settings** タブをクリック
 3. 左サイドバーの **Pages** をクリック
@@ -23,7 +19,7 @@
 5. **Branch** で `main` を選択し、フォルダで `/docs` を選択
 6. **Save** をクリック
 
-> **注意**: オプション B を選択した場合、`docs` ディレクトリがリポジトリにコミットされている必要があります。
+> **重要**: この設定により、GitHub Actions が `docs` ディレクトリに自動コミットし、GitHub Pages が直接 `docs` フォルダから公開します。Environment Protection Rules の問題を完全に回避できます。
 
 ### 2. ブランチの確認
 

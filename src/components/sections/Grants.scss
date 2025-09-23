@@ -1,0 +1,75 @@
+.icon {
+  padding: 0.5em;
+  margin: 0 auto;
+  width: 60px;
+  transition: all 0.15s ease-in;
+  display: inline-block;
+
+  &:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-width: 60px;
+  }
+}
+
+.section.no-h-padding {
+  padding: 3rem 0;
+}
+
+.cardContainer {
+  padding: 40px 80px;
+  display: block;
+  max-width: 2000px;
+  margin: auto;
+}
+
+.content {
+  padding-left: 2em;
+  margin-bottom: 2rem;
+
+  li {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+    font-size: 1rem;
+
+    .amount {
+      color: #26A69A;
+      font-weight: 600;
+      background-color: rgba(38, 166, 154, 0.1);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+hr {
+  margin: 2rem 0;
+  border: none;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .cardContainer {
+    padding: 20px 40px;
+  }
+
+  .content {
+    padding-left: 1.5em;
+
+    li {
+      font-size: 0.9rem;
+
+      .amount {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

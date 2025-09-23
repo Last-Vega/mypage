@@ -1,73 +1,51 @@
 {
-  "name": "lokecarlsson",
-  "version": "2.1.0",
-  "description": "My Vue.js Portfolio",
-  "author": "Loke <carlssonloke@gmail.com>",
-  "scripts": {
-    "dev": "node build/dev-server.js",
-    "start": "node build/prod-server.js",
-    "build": "node build/build.js"
-  },
+  "name": "shingo-watanabe-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Shingo Watanabe's Portfolio - React TypeScript version",
+  "author": "Shingo Watanabe <watanabe.shingo.ss@alumni.tsukuba.ac.jp>",
   "dependencies": {
-    "buefy": "^0.3.2",
-    "bulma-extensions": "^6.2.7",
-    "core-js": "^2.4.1",
-    "moment": "^2.18.1",
-    "scrollreveal": "^3.3.5",
-    "vue": "^2.3.4",
-    "vue-clazy-load": "^0.4.2",
-    "vue-scrollto": "^2.6.8",
-    "vuex": "^2.3.1"
+    "@testing-library/dom": "^10.4.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.126",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@types/scrollreveal": "^0.0.11",
+    "moment": "^2.30.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-scripts": "5.0.1",
+    "react-scroll-to-element": "^0.2.0",
+    "sass": "^1.93.1",
+    "scrollreveal": "^4.0.9",
+    "typescript": "^4.9.5",
+    "web-vitals": "^2.1.4"
   },
-  "devDependencies": {
-    "autoprefixer": "^6.7.2",
-    "babel-core": "^6.22.1",
-    "babel-eslint": "^7.0.0",
-    "babel-loader": "^6.2.10",
-    "babel-plugin-transform-runtime": "^6.22.0",
-    "babel-preset-env": "^1.2.1",
-    "babel-preset-stage-2": "^6.22.0",
-    "babel-register": "^6.22.0",
-    "chalk": "^1.1.3",
-    "compression-webpack-plugin": "^0.4.0",
-    "connect-history-api-fallback": "^1.3.0",
-    "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.26.1",
-    "eslint": "^3.19.0",
-    "eslint-config-airbnb-base": "^11.0.1",
-    "eslint-import-resolver-webpack": "^0.8.1",
-    "eslint-plugin-html": "^2.0.3",
-    "eslint-plugin-import": "^2.2.0",
-    "eslint-plugin-vue": "^1.0.0",
-    "eventsource-polyfill": "^0.9.6",
-    "express": "^4.14.1",
-    "extract-text-webpack-plugin": "^2.0.0",
-    "favicons-webpack-plugin": "0.0.7",
-    "file-loader": "^0.10.0",
-    "friendly-errors-webpack-plugin": "^1.1.3",
-    "html-webpack-plugin": "^2.28.0",
-    "http-proxy-middleware": "^0.17.3",
-    "node-sass": "^4.5.2",
-    "opn": "^4.0.2",
-    "optimize-css-assets-webpack-plugin": "^1.3.0",
-    "ora": "^1.1.0",
-    "prerender-spa-plugin": "^2.0.1",
-    "rimraf": "^2.6.0",
-    "sass-loader": "^6.0.3",
-    "semver": "^5.3.0",
-    "shelljs": "^0.7.6",
-    "url-loader": "^0.5.8",
-    "vue-loader": "^11.1.4",
-    "vue-style-loader": "^2.0.0",
-    "vue-template-compiler": "^2.3.4",
-    "webpack": "^2.2.1",
-    "webpack-bundle-analyzer": "^2.2.1",
-    "webpack-dev-middleware": "^1.10.0",
-    "webpack-hot-middleware": "^2.16.1",
-    "webpack-merge": "^2.6.1"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "engines": {
-    "node": ">= 4.0.0",
-    "npm": ">= 3.0.0"
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

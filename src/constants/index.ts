@@ -31,3 +31,4 @@ export const CONTACT_INFO = {
   ADDRESS: '150-0043 東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F−C',
   ADDRESS_EN: 'Shibuya Dogenzaka Tokyu Building 2F-C, Dogenzaka 1-10-8, Shibuya-ku, Tokyo 150-0043, Japan',
 } as const;
+

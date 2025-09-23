@@ -31,3 +31,4 @@ export const isInViewport = (element: HTMLElement): boolean => {
 export const formatEmail = (email: string): string => {
   return `mailto:${email}`;
 };
+

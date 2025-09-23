@@ -37,3 +37,4 @@ export interface SeparatorProps {
 export interface ProjectCardProps {
   project: Project;
 }
+

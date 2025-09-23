@@ -3,7 +3,7 @@ import { Separator } from '../common';
 import './Contact.scss';
 
 const Contact: React.FC = () => {
-  const email = 'watanabe.shingo.ss@alumni.tsukuba.ac.jp';
+  const email = 'watsydney.ml@gmail.com';
   const social = [
     {
       icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/600px-Instagram_icon.png',
@@ -33,6 +33,7 @@ const Contact: React.FC = () => {
           150-0043 東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F−C<br />
           Shibuya Dogenzaka Tokyu Building 2F-C, Dogenzaka 1-10-8, Shibuya-ku, Tokyo 150-0043, Japan<br />
           E-mail1: watanabe.shingo.ss [at] alumni.tsukuba.ac.jp<br />
+          E-mail2: watsydney.ml [at] gmail.com<br />
         </h5>
         <div className="block reveal">
           <a className="button grow is-dark" href={`mailto:${email}`}>

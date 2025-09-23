@@ -25,7 +25,8 @@ export const BREAKPOINTS = {
 // Contact information
 export const CONTACT_INFO = {
   NAME: 'Shingo Watanabe | 渡邉真悟',
-  EMAIL: 'watanabe.shingo.ss@alumni.tsukuba.ac.jp',
+  // EMAIL: 'watanabe.shingo.ss@alumni.tsukuba.ac.jp',
+  EMAIL: 'watsydney.ml@gmail.com',
   LOCATION: 'Shibuya Tokyo, Japan',
   STATUS: '業務委託募集中',
   ADDRESS: '150-0043 東京都渋谷区道玄坂1丁目10番8号渋谷道玄坂東急ビル2F−C',

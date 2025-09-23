@@ -8,11 +8,22 @@
 
 ### 1. GitHub Pages の有効化
 
+#### オプション A: GitHub Actions を使用（推奨）
 1. GitHubリポジトリページにアクセス
 2. **Settings** タブをクリック
 3. 左サイドバーの **Pages** をクリック
 4. **Source** セクションで **GitHub Actions** を選択
 5. **Save** をクリック
+
+#### オプション B: docs ディレクトリを使用
+1. GitHubリポジトリページにアクセス
+2. **Settings** タブをクリック
+3. 左サイドバーの **Pages** をクリック
+4. **Source** セクションで **Deploy from a branch** を選択
+5. **Branch** で `main` を選択し、フォルダで `/docs` を選択
+6. **Save** をクリック
+
+> **注意**: オプション B を選択した場合、`docs` ディレクトリがリポジトリにコミットされている必要があります。
 
 ### 2. ブランチの確認
 
@@ -39,7 +50,20 @@ GitHub Actions が以下の権限を持っていることを確認：
    - 依存関係のインストール (`npm ci`)
    - テストの実行 (`npm test`)
    - プロダクションビルド (`npm run build`)
+   - `docs` ディレクトリの作成
 3. **デプロイ**: GitHub Pages への自動デプロイ
+
+### ビルドプロセスの詳細
+
+```bash
+npm run build
+# ↓ 以下が順次実行される
+# 1. react-scripts build    → build/ ディレクトリ作成
+# 2. rimraf docs           → 既存の docs/ ディレクトリ削除
+# 3. cp -r build docs      → build/ の内容を docs/ にコピー
+```
+
+これにより、GitHub Pages は `docs` ディレクトリまたは GitHub Actions の両方からデプロイ可能になります。
 
 ### デプロイ状況の確認
 

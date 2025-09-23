@@ -122,13 +122,24 @@ npx serve -s build
 ### ワークフロー詳細
 
 - **トリガー**: `main`ブランチへのpush/PR
-- **プロセス**:
+- **プロセス**: 
   1. Node.js 18 環境セットアップ
   2. 依存関係インストール (`npm ci`)
   3. テスト実行 (`npm test`)
   4. プロダクションビルド (`npm run build`)
-  5. GitHub Pagesに自動デプロイ
+  5. `docs`ディレクトリ作成 (GitHub Pages用)
+  6. GitHub Pagesに自動デプロイ
 - **デプロイURL**: https://last-vega.github.io/mypage
+
+### ビルドプロセス詳細
+
+```bash
+npm run build
+# ↓ 以下が自動実行される
+# 1. react-scripts build (buildディレクトリ作成)
+# 2. rimraf docs (既存docsディレクトリ削除)
+# 3. cp -r build docs (buildの内容をdocsにコピー)
+```
 
 ### ワークフロー設定ファイル
 

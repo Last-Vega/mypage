@@ -109,6 +109,46 @@ npx serve -s build
    npm run deploy
    ```
 
+## 🚀 CI/CD 自動デプロイ（GitHub Pages）
+
+**自動デプロイが設定済みです！** `main`ブランチにpushするだけで自動的にGitHub Pagesにデプロイされます。
+
+### セットアップ手順（リポジトリオーナーのみ）
+
+1. GitHubリポジトリの「Settings」→「Pages」に移動
+2. Source を「GitHub Actions」に設定
+3. `main`ブランチにpushすると自動デプロイが開始されます
+
+### ワークフロー詳細
+
+- **トリガー**: `main`ブランチへのpush/PR
+- **プロセス**: 
+  1. Node.js 18 環境セットアップ
+  2. 依存関係インストール (`npm ci`)
+  3. テスト実行 (`npm test`)
+  4. プロダクションビルド (`npm run build`)
+  5. GitHub Pagesに自動デプロイ
+- **デプロイURL**: https://last-vega.github.io/mypage
+
+### ワークフロー設定ファイル
+
+`.github/workflows/deploy.yml` に設定済み：
+
+```yaml
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+```
+
 ## 🎨 カスタマイズ
 
 ### 色の変更

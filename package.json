@@ -2,8 +2,9 @@
   "name": "shingo-watanabe-portfolio",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://last-vega.github.io/mypage",
   "description": "Shingo Watanabe's Portfolio - React TypeScript version",
-  "author": "Shingo Watanabe <watanabe.shingo.ss@alumni.tsukuba.ac.jp>",
+  "author": "Shingo Watanabe <watsydney.ml@gmail.com>",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
